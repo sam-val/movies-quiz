@@ -1,0 +1,81 @@
+:root {
+  --unit: 50;
+}
+
+.label-question {
+    margin: 15px;
+    font-size: larger;
+    padding: 5px;
+    min-height: 70px;
+    text-align: center;
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  padding: 0;
+  margin: 10;
+  text-align: left;
+  /* display: flex; */
+  height: auto;
+  border-radius: 2px;
+}
+
+ul.no-bullets li label {
+  height: 50px;
+  display: flex;
+  font-size: larger;
+  font-weight: bold;
+  color: grey;
+  align-items: center;
+  margin: 5px;
+  padding: 5px;
+  background-color: skyblue;
+}
+
+
+ul.no-bullets li input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+
+ul.no-bullets label:hover {
+    background-color: orange;
+    color: white;
+}
+
+.form-buttons {
+    padding: 10px;
+}
+
+.center {
+  margin: 0 auto;
+  width: calc(var(--unit) * 10px);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.progress-bar {
+    margin: 10px;
+    width: calc(var(--unit) * 10px);
+    height: 5px;
+    background-color: white;
+    border-radius: 2px;
+    border-style: solid;;
+    border-width: 1px;
+    border-color: black;
+}
+
+.progress-current {
+    background-color: green;
+    height: 100%;
+    width: 0px;
+}
+
+.choice-checked {
+    color: white !important;
+    background-color: orange !important;
+}

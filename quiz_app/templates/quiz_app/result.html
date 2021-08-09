@@ -1,0 +1,8 @@
+You anwered {{corrects}}/10 correctly.
+
+{% comment %} <h3>Total points: {{request.session.points_sofar }}</h3> {% endcomment %}
+<a href="{% url 'quiz_app:index' %}">Take more quizzes</a>
+<br>
+{% if request.user.is_anonymous %}
+<a href="{% url 'user:login' %}">Please login to keep your scores</a>
+{% endif %}

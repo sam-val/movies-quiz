@@ -1,0 +1,133 @@
+{% extends 'quizz/base.html' %} {% block head %} {% load static %}
+<link rel="stylesheet" href="{% static 'quiz_app/quizz.css' %}" />
+
+{% endblock head %} {% block content %}
+
+<div class="center">
+  <div class="headers">
+    <h2>{{ category }}</h2>
+    <h3>Question <span id="current_question">1</span> of 10</h3>
+  </div>
+  <div class="progress-bar">
+    <div class="progress-current"></div>
+  </div>
+  <form
+    id="form"
+    action="{% url 'quiz_app:check_quizz' view.kwargs.slug %}"
+    method="POST"
+  >
+    {% comment %} {{ form.question_0.label }} {% endcomment %} {% csrf_token %}
+    {% comment %} {{ form.as_p }} {% endcomment %}
+    <div class="fields">
+      {% for field in form %}
+      <div hidden>
+        {{ field.errors }}
+        <div class="label-question">{{ field.label}}</div>
+        {{ field }}
+      </div>
+      {% endfor %}
+    </div>
+    <p id="error"></p>
+  </form>
+  <div class="form-buttons">
+    <button id="btn_prev" class="btn btn-success" disabled>Previous</button>
+    <button id="btn_next" class="btn btn-success">Next</button>
+    <button id="btn_submit" class="btn btn-success" hidden>Submit</button>
+  </div>
+</div>
+<script>
+  window.addEventListener("DOMContentLoaded", function (e) {
+    const div_fields = document.querySelector(".fields");
+    const form = document.querySelector("#form");
+    const btn_prev = document.querySelector("#btn_prev");
+    const btn_next = document.querySelector("#btn_next");
+    const btn_submit = document.querySelector("#btn_submit");
+    const error_prompt = document.querySelector("#error");
+    const span_current_question = document.querySelector("#current_question");
+    const progress_current = document.querySelector(".progress-current");
+
+    var current_field = 1;
+
+    refreshQuestion();
+
+    // go through all fields, add check-function for radio button input change:
+    for (let i = 1; i < div_fields.childElementCount; i++) {
+      var answers = div_fields.children[i].querySelectorAll("ul");
+      for (let i = 0; i < answers.length; i++) {
+        answers[i].addEventListener("click", function (e) {
+          let choices = this.querySelectorAll('input[type="radio"]');
+          for (let y = 0; y < choices.length; y++) {
+            if (choices[y].checked) {
+              choices[y].parentElement.classList.toggle("choice-checked", true);
+            } else {
+              choices[y].parentElement.classList.toggle(
+                "choice-checked",
+                false
+              );
+            }
+          }
+        });
+      }
+    }
+
+    btn_submit.addEventListener("click", function (e) {
+      // check if all field is answered
+      for (let i = 1; i < div_fields.childElementCount; i++) {
+        var answer = div_fields.children[i].querySelector(
+          'input[type="radio"]:checked'
+        );
+        if (answer === null) {
+          error_prompt.innerHTML = "Please answer all quetsions";
+          return;
+        }
+      }
+      form.submit();
+    });
+
+    btn_prev.addEventListener("click", function (e) {
+      current_field--;
+      if (current_field <= 1) {
+        current_field = 1;
+        this.disabled = true;
+      } else {
+        this.disabled = false;
+      }
+
+      refreshQuestion();
+      check_progress();
+    });
+
+    btn_next.addEventListener("click", function (e) {
+      current_field++;
+      refreshQuestion();
+      check_progress();
+    });
+    function refreshQuestion() {
+      for (let i = 1; i < div_fields.childElementCount; i++) {
+        div_fields.children[i].hidden = true;
+      }
+      error_prompt.innerHTML = "";
+      btn_submit.hidden = true;
+      btn_prev.disabled = btn_next.disabled = false;
+      if (current_field >= div_fields.childElementCount - 1) {
+        current_field = div_fields.childElementCount - 1;
+        btn_next.disabled = true;
+        btn_submit.hidden = false;
+      } else if (current_field <= 1) {
+        current_field = 1;
+        btn_prev.disabled = true;
+      } else {
+        btn_prev.disabled = btn_next.disabled = false;
+      }
+
+      current_question.innerHTML = current_field;
+      div_fields.children[current_field].hidden = false;
+    }
+    function check_progress() {
+        let choices = div_fields.querySelectorAll('input[type="radio"]:checked');
+        progress_current.style.width = (choices.length * 50) + "px";
+    }
+  });
+</script>
+
+{% endblock content %}

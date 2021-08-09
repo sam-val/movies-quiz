@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {% if title %}
+    <title>{{ title }}</title>
+    {% endif %}
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    {% load static %} <link rel="stylesheet" href="{% static "quiz_app/base.css"%}"> 
+    
+    {% block head %}{% endblock head %}
+  </head>
+  <body>
+    <div class="nav-bar">
+      {% if request.path != "/" %}
+      <a class="nav-item" href="{% url 'quiz_app:index' %}">Index</a> <br />
+      {% endif %} 
+      
+      {% if request.user.is_authenticated %}
+      <h2 class="info-point nav-item">
+        Hello, {{request.user.username}}. Your total points: {{request.session.points_sofar }}
+      </h2>
+
+      <a class="nav-item" href="{% url 'user:logout' %}">Log Out</a>
+      {% else %} 
+      {% if request.path != "/login/" and request.path != "/signup/"%}
+
+      <a  class="nav-item" href="{% url 'user:login' %}">Log In</a>
+      {% endif %}
+    {% endif %}
+    </div>
+    {% comment %} <a href="{% url 'user:signup' %}">Sign Up</a> {% endcomment %}
+
+    <div class="content">{% block content %} {% endblock content %}</div>
+  </body>
+</html>

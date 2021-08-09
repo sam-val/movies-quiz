@@ -1,0 +1,1416 @@
+[
+{
+  "model": "quiz_app.category",
+  "pk": 1,
+  "fields": {
+    "name": "Game of Thrones",
+    "slug": "game-of-thrones"
+  }
+},
+{
+  "model": "quiz_app.category",
+  "pk": 2,
+  "fields": {
+    "name": "Breaking Bad",
+    "slug": "breaking-bad"
+  }
+},
+{
+  "model": "quiz_app.category",
+  "pk": 3,
+  "fields": {
+    "name": "Dexter",
+    "slug": "dexter"
+  }
+},
+{
+  "model": "quiz_app.question",
+  "pk": 1,
+  "fields": {
+    "question_text": "In which season and episode does the Red Wedding occur?",
+    "cat": 1
+  }
+},
+{
+  "model": "quiz_app.question",
+  "pk": 2,
+  "fields": {
+    "question_text": "Who is the author of the book series that the show was based on?",
+    "cat": 1
+  }
+},
+{
+  "model": "quiz_app.question",
+  "pk": 3,
+  "fields": {
+    "question_text": "Which person below is not from house Stark?",
+    "cat": 1
+  }
+},
+{
+  "model": "quiz_app.question",
+  "pk": 4,
+  "fields": {
+    "question_text": "Which house ruled the Seven Kingdoms at the start of the show?",
+    "cat": 1
+  }
+},
+{
+  "model": "quiz_app.question",
+  "pk": 5,
+  "fields": {
+    "question_text": "The name of the actor who played Tywin Lannister is which of the following?",
+    "cat": 1
+  }
+},
+{
+  "model": "quiz_app.question",
+  "pk": 6,
+  "fields": {
+    "question_text": "Jorah Mormont contracted what disease?",
+    "cat": 1
+  }
+},
+{
+  "model": "quiz_app.question",
+  "pk": 7,
+  "fields": {
+    "question_text": "Which is not one of Daenerys Targaryen's titles?",
+    "cat": 1
+  }
+},
+{
+  "model": "quiz_app.question",
+  "pk": 8,
+  "fields": {
+    "question_text": "What name is given to the main religion in Game of Thrones?",
+    "cat": 1
+  }
+},
+{
+  "model": "quiz_app.question",
+  "pk": 9,
+  "fields": {
+    "question_text": "In the show, which house has its sigil in the shape of a three-legged snake?",
+    "cat": 1
+  }
+},
+{
+  "model": "quiz_app.question",
+  "pk": 10,
+  "fields": {
+    "question_text": "How many season are there in Game of Thrones?",
+    "cat": 1
+  }
+},
+{
+  "model": "quiz_app.question",
+  "pk": 11,
+  "fields": {
+    "question_text": "Is it true that the map of Westeros is based on the UK & Iceland?",
+    "cat": 1
+  }
+},
+{
+  "model": "quiz_app.question",
+  "pk": 12,
+  "fields": {
+    "question_text": "House Greyjoy has an official motto, what is it?",
+    "cat": 1
+  }
+},
+{
+  "model": "quiz_app.question",
+  "pk": 13,
+  "fields": {
+    "question_text": "How many episodes of Breaking Bad were aired?",
+    "cat": 2
+  }
+},
+{
+  "model": "quiz_app.question",
+  "pk": 14,
+  "fields": {
+    "question_text": "Name the plant Walt used to poison a child.",
+    "cat": 2
+  }
+},
+{
+  "model": "quiz_app.question",
+  "pk": 15,
+  "fields": {
+    "question_text": "Name the actor who plays Walt Jr.",
+    "cat": 2
+  }
+},
+{
+  "model": "quiz_app.question",
+  "pk": 16,
+  "fields": {
+    "question_text": "Complete the iconic Walt phrase: “You clearly don’t know who you’re talking to, so let me clue you in. I am not in danger, Skyler. I am the danger! A guy opens his door and gets shot and you think that of me? No. I am ____",
+    "cat": 2
+  }
+},
+{
+  "model": "quiz_app.question",
+  "pk": 17,
+  "fields": {
+    "question_text": "What does DEA stand for?",
+    "cat": 2
+  }
+},
+{
+  "model": "quiz_app.question",
+  "pk": 18,
+  "fields": {
+    "question_text": "Which year was Breaking Bad first aired?",
+    "cat": 2
+  }
+},
+{
+  "model": "quiz_app.question",
+  "pk": 19,
+  "fields": {
+    "question_text": "Which colour is commonly associated with Marie Schrader throughout the show?",
+    "cat": 2
+  }
+},
+{
+  "model": "quiz_app.question",
+  "pk": 20,
+  "fields": {
+    "question_text": "What is the name of Skinny Pete's accomplice?",
+    "cat": 2
+  }
+},
+{
+  "model": "quiz_app.question",
+  "pk": 21,
+  "fields": {
+    "question_text": "Which food does Walt infamously throw onto the roof of his house?",
+    "cat": 2
+  }
+},
+{
+  "model": "quiz_app.question",
+  "pk": 22,
+  "fields": {
+    "question_text": "Say 'my name'.",
+    "cat": 2
+  }
+},
+{
+  "model": "quiz_app.question",
+  "pk": 23,
+  "fields": {
+    "question_text": "What is Dexter known as?",
+    "cat": 3
+  }
+},
+{
+  "model": "quiz_app.question",
+  "pk": 24,
+  "fields": {
+    "question_text": "Who is Dexter’s love interest for the first four seasons?",
+    "cat": 3
+  }
+},
+{
+  "model": "quiz_app.question",
+  "pk": 25,
+  "fields": {
+    "question_text": "How was Dexter’s mother killed?",
+    "cat": 3
+  }
+},
+{
+  "model": "quiz_app.question",
+  "pk": 26,
+  "fields": {
+    "question_text": "What are Dexter’s trophies?",
+    "cat": 3
+  }
+},
+{
+  "model": "quiz_app.question",
+  "pk": 27,
+  "fields": {
+    "question_text": "Who at the Police Department began to suspect Dexter?",
+    "cat": 3
+  }
+},
+{
+  "model": "quiz_app.question",
+  "pk": 28,
+  "fields": {
+    "question_text": "Which murderer is Dexter related to?",
+    "cat": 3
+  }
+},
+{
+  "model": "quiz_app.question",
+  "pk": 29,
+  "fields": {
+    "question_text": "What is the Trinity Killer’s cover up?",
+    "cat": 3
+  }
+},
+{
+  "model": "quiz_app.question",
+  "pk": 30,
+  "fields": {
+    "question_text": "What does the Doomsday Killer use as inspiration?",
+    "cat": 3
+  }
+},
+{
+  "model": "quiz_app.question",
+  "pk": 31,
+  "fields": {
+    "question_text": "What does Dexter nickname his urge to kill?",
+    "cat": 3
+  }
+},
+{
+  "model": "quiz_app.question",
+  "pk": 32,
+  "fields": {
+    "question_text": "What is Jordan Chase’s job?",
+    "cat": 3
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 1,
+  "fields": {
+    "answer_text": "Season 3 Episode 10",
+    "correct": false,
+    "question": 1
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 2,
+  "fields": {
+    "answer_text": "Season 3 Episode 9",
+    "correct": true,
+    "question": 1
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 3,
+  "fields": {
+    "answer_text": "Season 2 Episode 10",
+    "correct": false,
+    "question": 1
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 4,
+  "fields": {
+    "answer_text": "Season 3 Episode 8",
+    "correct": false,
+    "question": 1
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 5,
+  "fields": {
+    "answer_text": "George A. Romero",
+    "correct": false,
+    "question": 2
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 6,
+  "fields": {
+    "answer_text": "J. R. R. Tolkien",
+    "correct": false,
+    "question": 2
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 7,
+  "fields": {
+    "answer_text": "George R.R. Martin",
+    "correct": true,
+    "question": 2
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 8,
+  "fields": {
+    "answer_text": "Stephen King",
+    "correct": false,
+    "question": 2
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 9,
+  "fields": {
+    "answer_text": "Brandon Stark",
+    "correct": false,
+    "question": 3
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 10,
+  "fields": {
+    "answer_text": "Eddard Stark",
+    "correct": false,
+    "question": 3
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 11,
+  "fields": {
+    "answer_text": "Susan Stark",
+    "correct": true,
+    "question": 3
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 12,
+  "fields": {
+    "answer_text": "Arya Stark",
+    "correct": false,
+    "question": 3
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 13,
+  "fields": {
+    "answer_text": "Stark",
+    "correct": false,
+    "question": 4
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 14,
+  "fields": {
+    "answer_text": "Lannister",
+    "correct": false,
+    "question": 4
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 15,
+  "fields": {
+    "answer_text": "Baratheon",
+    "correct": true,
+    "question": 4
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 16,
+  "fields": {
+    "answer_text": "Tyrell",
+    "correct": false,
+    "question": 4
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 17,
+  "fields": {
+    "answer_text": "Charles Dance",
+    "correct": true,
+    "question": 5
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 18,
+  "fields": {
+    "answer_text": "Peter Dinklage",
+    "correct": false,
+    "question": 5
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 19,
+  "fields": {
+    "answer_text": "Richard Madden",
+    "correct": false,
+    "question": 5
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 20,
+  "fields": {
+    "answer_text": "Jack Gleeson",
+    "correct": false,
+    "question": 5
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 21,
+  "fields": {
+    "answer_text": "Whitescale",
+    "correct": false,
+    "question": 6
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 22,
+  "fields": {
+    "answer_text": "Blackscale",
+    "correct": false,
+    "question": 6
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 23,
+  "fields": {
+    "answer_text": "Redscale",
+    "correct": false,
+    "question": 6
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 24,
+  "fields": {
+    "answer_text": "Greyscale",
+    "correct": true,
+    "question": 6
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 25,
+  "fields": {
+    "answer_text": "Queen of Dragons",
+    "correct": true,
+    "question": 7
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 26,
+  "fields": {
+    "answer_text": "Queen of Mereen",
+    "correct": false,
+    "question": 7
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 27,
+  "fields": {
+    "answer_text": "Lady of the Seven Kingdoms",
+    "correct": false,
+    "question": 7
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 28,
+  "fields": {
+    "answer_text": "The Unburnt",
+    "correct": false,
+    "question": 7
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 29,
+  "fields": {
+    "answer_text": "The Drowned God",
+    "correct": false,
+    "question": 8
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 30,
+  "fields": {
+    "answer_text": "The Faith of the People",
+    "correct": false,
+    "question": 8
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 31,
+  "fields": {
+    "answer_text": "The Lord of Light",
+    "correct": false,
+    "question": 8
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 32,
+  "fields": {
+    "answer_text": "The Faith of the Seven",
+    "correct": true,
+    "question": 8
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 33,
+  "fields": {
+    "answer_text": "House Lynderly",
+    "correct": false,
+    "question": 9
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 34,
+  "fields": {
+    "answer_text": "House Reed",
+    "correct": false,
+    "question": 9
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 35,
+  "fields": {
+    "answer_text": "House Estermont",
+    "correct": false,
+    "question": 9
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 36,
+  "fields": {
+    "answer_text": "None",
+    "correct": true,
+    "question": 9
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 37,
+  "fields": {
+    "answer_text": "Eight",
+    "correct": true,
+    "question": 10
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 38,
+  "fields": {
+    "answer_text": "Seven",
+    "correct": false,
+    "question": 10
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 39,
+  "fields": {
+    "answer_text": "Nine",
+    "correct": false,
+    "question": 10
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 40,
+  "fields": {
+    "answer_text": "Six",
+    "correct": false,
+    "question": 10
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 41,
+  "fields": {
+    "answer_text": "True",
+    "correct": false,
+    "question": 11
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 42,
+  "fields": {
+    "answer_text": "False",
+    "correct": true,
+    "question": 11
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 43,
+  "fields": {
+    "answer_text": "We Do Not Sow",
+    "correct": true,
+    "question": 12
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 44,
+  "fields": {
+    "answer_text": "What Is Dead May Never Die",
+    "correct": false,
+    "question": 12
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 45,
+  "fields": {
+    "answer_text": "Both are correct",
+    "correct": false,
+    "question": 12
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 46,
+  "fields": {
+    "answer_text": "Both are incorrect",
+    "correct": false,
+    "question": 12
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 47,
+  "fields": {
+    "answer_text": "60",
+    "correct": false,
+    "question": 13
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 48,
+  "fields": {
+    "answer_text": "61",
+    "correct": false,
+    "question": 13
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 49,
+  "fields": {
+    "answer_text": "63",
+    "correct": false,
+    "question": 13
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 50,
+  "fields": {
+    "answer_text": "62",
+    "correct": true,
+    "question": 13
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 51,
+  "fields": {
+    "answer_text": "Lily of the Valley",
+    "correct": true,
+    "question": 14
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 52,
+  "fields": {
+    "answer_text": "Poison Ivy",
+    "correct": false,
+    "question": 14
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 53,
+  "fields": {
+    "answer_text": "Ricin",
+    "correct": false,
+    "question": 14
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 54,
+  "fields": {
+    "answer_text": "Cyanide",
+    "correct": false,
+    "question": 14
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 55,
+  "fields": {
+    "answer_text": "Aaron Paul",
+    "correct": false,
+    "question": 15
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 56,
+  "fields": {
+    "answer_text": "Bryan Cranston",
+    "correct": false,
+    "question": 15
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 57,
+  "fields": {
+    "answer_text": "Matt Jones",
+    "correct": false,
+    "question": 15
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 58,
+  "fields": {
+    "answer_text": "RJ Mitte",
+    "correct": true,
+    "question": 15
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 59,
+  "fields": {
+    "answer_text": "The one who knocks",
+    "correct": true,
+    "question": 16
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 60,
+  "fields": {
+    "answer_text": "The one who killed Gus Fring",
+    "correct": false,
+    "question": 16
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 61,
+  "fields": {
+    "answer_text": "Heisenberg",
+    "correct": false,
+    "question": 16
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 62,
+  "fields": {
+    "answer_text": "In the empire business",
+    "correct": false,
+    "question": 16
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 63,
+  "fields": {
+    "answer_text": "Drug Enforcement Agency",
+    "correct": false,
+    "question": 17
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 64,
+  "fields": {
+    "answer_text": "Drug Enforcement Activation",
+    "correct": false,
+    "question": 17
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 65,
+  "fields": {
+    "answer_text": "Drug Enquiry Agency",
+    "correct": false,
+    "question": 17
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 66,
+  "fields": {
+    "answer_text": "Drug Enforcement Administration",
+    "correct": true,
+    "question": 17
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 67,
+  "fields": {
+    "answer_text": "2006",
+    "correct": false,
+    "question": 18
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 68,
+  "fields": {
+    "answer_text": "2007",
+    "correct": false,
+    "question": 18
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 69,
+  "fields": {
+    "answer_text": "2009",
+    "correct": false,
+    "question": 18
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 70,
+  "fields": {
+    "answer_text": "2008",
+    "correct": true,
+    "question": 18
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 71,
+  "fields": {
+    "answer_text": "Purple",
+    "correct": true,
+    "question": 19
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 72,
+  "fields": {
+    "answer_text": "Green",
+    "correct": false,
+    "question": 19
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 73,
+  "fields": {
+    "answer_text": "Pink",
+    "correct": false,
+    "question": 19
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 74,
+  "fields": {
+    "answer_text": "Red",
+    "correct": false,
+    "question": 19
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 75,
+  "fields": {
+    "answer_text": "Jake",
+    "correct": false,
+    "question": 20
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 76,
+  "fields": {
+    "answer_text": "Combo",
+    "correct": false,
+    "question": 20
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 77,
+  "fields": {
+    "answer_text": "Brock",
+    "correct": false,
+    "question": 20
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 78,
+  "fields": {
+    "answer_text": "Badger",
+    "correct": true,
+    "question": 20
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 79,
+  "fields": {
+    "answer_text": "Pizza",
+    "correct": true,
+    "question": 21
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 80,
+  "fields": {
+    "answer_text": "Ice Cream",
+    "correct": false,
+    "question": 21
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 81,
+  "fields": {
+    "answer_text": "Los Pollos Hermanos's Fried Chicken",
+    "correct": false,
+    "question": 21
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 82,
+  "fields": {
+    "answer_text": "Veggie Bacon",
+    "correct": false,
+    "question": 21
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 83,
+  "fields": {
+    "answer_text": "What? I have no damn clue who you are...",
+    "correct": false,
+    "question": 22
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 84,
+  "fields": {
+    "answer_text": "Heisenberg.",
+    "correct": false,
+    "question": 22
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 85,
+  "fields": {
+    "answer_text": "You're goddamn right.",
+    "correct": false,
+    "question": 22
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 86,
+  "fields": {
+    "answer_text": "My name.",
+    "correct": true,
+    "question": 22
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 87,
+  "fields": {
+    "answer_text": "The Ice Truck Killer",
+    "correct": false,
+    "question": 23
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 88,
+  "fields": {
+    "answer_text": "The Bay Area Butcher",
+    "correct": true,
+    "question": 23
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 89,
+  "fields": {
+    "answer_text": "The Trinity Killer",
+    "correct": false,
+    "question": 23
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 90,
+  "fields": {
+    "answer_text": "The Doomsday Killer",
+    "correct": false,
+    "question": 23
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 91,
+  "fields": {
+    "answer_text": "Mary Ane",
+    "correct": false,
+    "question": 24
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 92,
+  "fields": {
+    "answer_text": "Rita",
+    "correct": true,
+    "question": 24
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 93,
+  "fields": {
+    "answer_text": "Debra",
+    "correct": false,
+    "question": 24
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 94,
+  "fields": {
+    "answer_text": "Sally",
+    "correct": false,
+    "question": 24
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 95,
+  "fields": {
+    "answer_text": "She's drowned",
+    "correct": false,
+    "question": 25
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 96,
+  "fields": {
+    "answer_text": "She's dismembered with a chainsaw",
+    "correct": true,
+    "question": 25
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 97,
+  "fields": {
+    "answer_text": "She's hung",
+    "correct": false,
+    "question": 25
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 98,
+  "fields": {
+    "answer_text": "She's shot",
+    "correct": false,
+    "question": 25
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 99,
+  "fields": {
+    "answer_text": "Hair samples",
+    "correct": false,
+    "question": 26
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 100,
+  "fields": {
+    "answer_text": "Blood drops on slides",
+    "correct": true,
+    "question": 26
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 101,
+  "fields": {
+    "answer_text": "Jewelry",
+    "correct": false,
+    "question": 26
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 102,
+  "fields": {
+    "answer_text": "Photos of the bodies",
+    "correct": false,
+    "question": 26
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 103,
+  "fields": {
+    "answer_text": "Debra Morgan",
+    "correct": false,
+    "question": 27
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 104,
+  "fields": {
+    "answer_text": "James Doakes",
+    "correct": true,
+    "question": 27
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 105,
+  "fields": {
+    "answer_text": "Maria LaGuerta",
+    "correct": false,
+    "question": 27
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 106,
+  "fields": {
+    "answer_text": "Angel Batista",
+    "correct": false,
+    "question": 27
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 107,
+  "fields": {
+    "answer_text": "The Trinity Killer",
+    "correct": false,
+    "question": 28
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 108,
+  "fields": {
+    "answer_text": "The Ice Trucker Killer",
+    "correct": true,
+    "question": 28
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 109,
+  "fields": {
+    "answer_text": "The Brain Surgeon",
+    "correct": false,
+    "question": 28
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 110,
+  "fields": {
+    "answer_text": "The doomsday Killer",
+    "correct": false,
+    "question": 28
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 111,
+  "fields": {
+    "answer_text": "Policeman",
+    "correct": false,
+    "question": 29
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 112,
+  "fields": {
+    "answer_text": "Family Man & Church Deacon",
+    "correct": true,
+    "question": 29
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 113,
+  "fields": {
+    "answer_text": "Lawyer for Exploited Children",
+    "correct": false,
+    "question": 29
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 114,
+  "fields": {
+    "answer_text": "CEO",
+    "correct": false,
+    "question": 29
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 115,
+  "fields": {
+    "answer_text": "Cold War Area Propaganda",
+    "correct": false,
+    "question": 30
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 116,
+  "fields": {
+    "answer_text": "The Book of Revelations",
+    "correct": true,
+    "question": 30
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 117,
+  "fields": {
+    "answer_text": "The crimes of Jack The Ripper",
+    "correct": false,
+    "question": 30
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 118,
+  "fields": {
+    "answer_text": "The Batman movies",
+    "correct": false,
+    "question": 30
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 119,
+  "fields": {
+    "answer_text": "Little Dex",
+    "correct": false,
+    "question": 31
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 120,
+  "fields": {
+    "answer_text": "His dark passenger",
+    "correct": true,
+    "question": 31
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 121,
+  "fields": {
+    "answer_text": "The need",
+    "correct": false,
+    "question": 31
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 122,
+  "fields": {
+    "answer_text": "His pyscho side",
+    "correct": false,
+    "question": 31
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 123,
+  "fields": {
+    "answer_text": "Pastor",
+    "correct": false,
+    "question": 32
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 124,
+  "fields": {
+    "answer_text": "Inspirational Speaker",
+    "correct": true,
+    "question": 32
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 125,
+  "fields": {
+    "answer_text": "Philanthropist",
+    "correct": false,
+    "question": 32
+  }
+},
+{
+  "model": "quiz_app.answer",
+  "pk": 126,
+  "fields": {
+    "answer_text": "Highschool Principal",
+    "correct": false,
+    "question": 32
+  }
+}
+]

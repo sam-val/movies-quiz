@@ -1,0 +1,36 @@
+:root {
+    --box-width: 150;
+    --box-height: 150;
+}
+
+.center {
+    margin: 0 auto;
+    width: calc(var(--box-width)*4px); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.category {
+    background-color: rgb(120, 120, 120);
+    display: flex;
+    width: calc(var(--box-width)*3px);
+}
+
+.box_category {
+    font-weight: 800;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width : calc(var(--box-width)*1px);
+    height : calc(var(--box-height)*1px);
+    padding: 10px;
+    text-align: center;
+}
+
+.box_category:hover {
+    font-weight: 1000;
+    color: green;
+    background-color: black;
+    cursor: pointer;
+}

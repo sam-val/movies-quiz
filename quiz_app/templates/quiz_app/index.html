@@ -1,0 +1,26 @@
+{% extends 'quizz/base.html' %}
+
+{% block head %}
+    {%load static %} 
+    <link rel="stylesheet" href="{% static 'quiz_app/index.css' %}">
+{% endblock head %}
+
+{% block content %}
+<div class="center">
+    <h2>CHOOSE A QUIZZ CATEGORY:</h2>
+        <div class="category">
+            {% for cat in  cats %}
+                <div class="box_category" onclick="location.href='{% url "quiz_app:quizz" cat.slug %}'"> 
+                    <span>{{ cat.name }}</span>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+<script>
+
+window.addEventListener("DOMContentLoaded", function(e) {
+    
+})
+</script>
+
+{% endblock content %}
